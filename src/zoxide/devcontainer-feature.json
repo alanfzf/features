@@ -1,7 +1,7 @@
 {
     "name": "Zoxide",
     "id": "zoxide",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Zoxide helps you quickly jump to your most-used directories on the command line, making navigation fast and easy",
     "options": {},
     "installsAfter": [

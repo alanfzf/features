@@ -4,9 +4,8 @@ set -e
 BAT_VERSION=$(curl -s "https://api.github.com/repos/sharkdp/bat/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
 
 ARCH=$(uname -m)
-SUPPORTED_ARCH=("x86_64" "aarch64")
 
-if [[ ! " ${SUPPORTED_ARCH[@]} " =~ " ${ARCH} " ]]; then
+if [ "$ARCH" != "x86_64" ] && [ "$ARCH" != "aarch64" ]; then
   echo "Unsupported architecture"
   exit 1
 fi

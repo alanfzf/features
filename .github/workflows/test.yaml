@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - zoxide
+          - bat
         baseImage:
           - debian:latest
           - ubuntu:latest

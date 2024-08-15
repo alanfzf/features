@@ -3,8 +3,7 @@
     "id": "zoxide",
     "version": "1.0.0",
     "description": "Zoxide helps you quickly jump to your most-used directories on the command line, making navigation fast and easy",
-    "options": {
-    },
+    "options": {},
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]

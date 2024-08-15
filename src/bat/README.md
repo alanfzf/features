@@ -1,12 +1,13 @@
-# Zoxide (zoxide)
 
-Zoxide helps you quickly jump to your most-used directories on the command line, making navigation fast and easy
+# Bat (bat)
+
+Bat improves file viewing in the terminal with syntax highlighting and line numbers, offering a modern alternative to cat
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/alanfzf/features/zoxide:1": {}
+    "ghcr.io/alanfzf/features/bat:1": {}
 }
 ```
 
@@ -20,4 +21,4 @@ Zoxide helps you quickly jump to your most-used directories on the command line,
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/alanfzf/features/blob/main/src/zoxide/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/alanfzf/features/blob/main/src/bat/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

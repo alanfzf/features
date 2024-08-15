@@ -34,6 +34,7 @@ jobs:
       matrix:
         features:
           - zoxide
+          - bat
     steps:
       - uses: actions/checkout@v3
 

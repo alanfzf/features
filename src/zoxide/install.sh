@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
 
-apt-get update && apt-get install zoxide
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | \
+  sh -s -- --bin-dir=/usr/local/bin --man-dir=/usr/local/share/man

@@ -13,5 +13,5 @@ else
   exit 1
 fi
 
-curl -L "https://github.com/neovim/neovim/releases/latest/download/${BASE_TAR}" | tar xzf - -C /opt/
+curl -L "https://github.com/neovim/neovim/releases/latest/download/${BASE_TAR}.tar.gz" | tar xzf - -C /opt/
 ln -sf "/opt/${BASE_TAR}/bin/nvim" "/usr/local/bin/nvim"

@@ -1,0 +1,10 @@
+{
+    "name": "Neovim",
+    "id": "neovim",
+    "version": "1.0.0",
+    "description": "Donwload neovim from GitHub releases page",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

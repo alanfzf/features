@@ -3,6 +3,7 @@
 	"image": "ubuntu:latest",
 	"features": {
 		"ghcr.io/alanfzf/features/zoxide:latest": {},
-		"ghcr.io/alanfzf/features/bat:latest": {}
+		"ghcr.io/alanfzf/features/bat:latest": {},
+		"ghcr.io/alanfzf/features/neovim:latest": {}
 	}
 }

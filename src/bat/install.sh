@@ -15,4 +15,4 @@ set -e
 # install bat /usr/local/bin
 
 apt-get update && apt-get -y install bat
-ln -s /usr/bin/batcat /usr/local/bin/bat
+ln -sf /usr/bin/batcat /usr/local/bin/bat
